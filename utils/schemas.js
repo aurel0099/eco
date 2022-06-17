@@ -5,8 +5,8 @@ const User = new mongoose.Schema({
     wallet: { type: Number, default: 0 },
     bank: { type: Number, default: 0 }
   cooldowns: {
-     work: { type: Date }
-     beg: { type: Date },
+     work: { type: Date },
+     beg: { type: Date }
    }
 })
 
