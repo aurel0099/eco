@@ -7,7 +7,7 @@ const User = new mongoose.Schema({
     cooldowns: {
      work:  { type: Date },
      beg:  { type: Date }
-    }
+   }
 })
 
 module.exports = { User: mongoose.model("User", User) }
